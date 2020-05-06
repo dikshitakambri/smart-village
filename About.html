@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>About IEEE smart village</title>
+	<link rel="stylesheet" type="text/css" href="aboutc.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<section>
+		<div class="head2">
+			<h1>IEEE Smart Village</h1>
+		    <h2 class="head3">Power a village,Empower Community</h2>
+		</div>
+		<hr>
+		<section class="img"><img src="https://www.smart-villages.com/wp-content/themes/smart-villages/assets/css/img/logo-dark.png">
+		</section>
+		<section class="para">
+			<h2>Systematic Solutions for Empowering a Community.</h2>
+			<p class="intro">IEEE smart village community uses innovative solutions to improve the resilience in rural areas,building on local strength and opportunities.It has unique approach to support the world's energy-impoverished communities by providing a comprehensive solution combining renewable energy and community based education<br>
+			<span id="dots"></span><span id="more">The challenges of starting and sustaining a successful business in the developing world are extreme to say the least. The IEEE Smart Village entrepreneurs are the true heroes. They have learned to build the confidence and support of their local communities. They consistently demonstrate a deep respect for preserving the best of local cultures and heritages while gracefully introducing new technology and business practices. Some of the challenges that they have had to overcome include extremes of climate, altitude, floods, currency devaluations, power blackouts, media blackouts, political instability, local rivalries and contentious elections.</span>
+	    	</p>
+	    	<button type="button" id="read" onclick="read()">Read More</button>
+	    	<script type="text/javascript">
+	    		var i=0;
+	    		function read() {
+	    			if(!i){
+	    				document.getElementById("more").style.display="inline";
+	    				document.getElementById("dots").style.display="none";
+	    				document.getElementById("read").innerHTML="Read less";
+	    				i=1;
+	    			}
+	    			else{
+	    				document.getElementById("more").style.display="none";
+	    				document.getElementById("dots").style.display="inline";
+	    				document.getElementById("read").innerHTML="Read More";
+	    				i=0;
+	    			}
+	    		}
+	    	</script>
+	    </section>
+	    <section class="middle">
+	    	<h2 style="text-align: center">Our mission</h2>
+	    	<p style="text-align: center">IEEE Smart Village integrates sustainable electricity, education,
+and entrepreneurial solutions to empower off-grid communities</p>
+			<h2 style="text-align: center">Our Vision</h2>
+			<p style="text-align: center">A world where all people enjoy equal access to electricity and education to grow opportunities and leverage change for themselves and others.
+			</p>
+	    </section>
+	<footer class="footer">
+		<div class="inner-footer">
+			<div class="footer-items">
+				<h2>Reach out to Us</h2>
+			    <p><b>Address : </b>SIES Graduate School of Technology,<br>
+				plot 1-C, D and E,Sector-V, Navi Mumbai,<br>
+				Maharashtra 400706<br>
+				<b>Phone : </b>+91 9167923446<br>
+				<b>Email : </b>ieeesiesgst.ac.in
+			   </p>
+			</div>
+			<div class="footer-items">
+				<h2>Catch On</h2>
+				<p>Always Open on following Social sites, feel free to check out.</p>
+			    <a href="https://m.facebook.com/ieeesiesgstofficial/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+			    <a href="https://www.instagram.com/ieeesiesgst/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			    <a href="https://www.linkedin.com/mwlite/company/ieee-gst"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+			    <a href="https://github.com/ieeesiesgst"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+			</div>
+			<div class="footer-items">
+				<h2>Newsletter</h2>
+				<p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
+				<input type="email" name="email" placeholder="Enter your email">
+			</div>
+		</div>
+
+</body>
+</html>
