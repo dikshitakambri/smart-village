@@ -5,25 +5,6 @@ body {
 	background: background: #fafafa;
 }
 /*Mobile format*/
-.heading-container {
-	background-color: #333333;
-	width: auto;
-	height: auto;
-}
-.heading {
-	padding-left: 25%;
-	color: white;
-	margin-top: 10px;
-}
-.list {
-	list-style: none;
-	padding-left: 25%;
-}
-ul li {
-	display: inline-block;
-	box-sizing: border-box;
-	color: white;
-}
 .head2 {
 	padding-top: 1px;
 	padding-bottom: 1px;
@@ -42,20 +23,17 @@ h1 {
 	font-size: 1.5em;
 }
 .img {
-	/*margin-left: 600px;
-	margin-top: 20px;
-	max-width: 70%;
-	border-radius: 20px;*/
+	padding-left: 20px;
 }
 img:hover {
 	transform: scale(0.85);
 }
 section .para h2 {
-	margin-left: 120px;
+	margin-left: 80px;
 	font-size: 1.7em;
 }
 .intro {
-	margin-left: 120px;
+	margin-left: 80px;
 	font-size: 20px;
 	width: 60%;
 	color: #346;
@@ -64,7 +42,7 @@ button {
 	color: black;
 	background-color: transparent;
 	border-color: black;
-	margin-left: 120px;
+	margin-left: 80px;
 	font-size: 20px;
 	border-radius: 0.3em;
 }
@@ -72,11 +50,10 @@ button {
 	display: none;
 }
 .middle {
-	background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/40/grey-370125__340.png); /*#BDBDBD*/
-	width: auto;
+	background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/40/grey-370125__340.png);
+	width: 100%;
 	height: auto;
 	margin-top: 1%;
-	padding: 1%;
 }
 .middle h2{
 	font-size: 1.7em;
@@ -91,23 +68,10 @@ button {
 	background: black;
 	display: block;
 	color: white;
-}
-.inner-footer {
-	width: 95%;
-	margin: auto;
-	padding: 30px 10px;
-	display: flex;
-	flex-wrap: wrap;
-	box-sizing: border-box;
-	justify-content: center;
-}
-.footer-items {
-	width: 25%;
-	padding: 10px 20px;
-	box-sizing: border-box;
+	padding: 1%;
 }
 .footer-items h2 {
-	margin: 10px 0;
+	margin: 8px 0;
 	color: grey;
 	font-weight: 3em;
 }
@@ -126,12 +90,18 @@ button {
 	img{
 		max-width: 60%;
 	}
-	h1{
-		font-size: 1.8em;
+	.head2 h1{
+		font-size: 2.4em;
 	}
-	.head2{
-		width: 20%;
-
+	section .head2{
+		width: 50%;
+		margin-left: 25%;
+	}
+	.footer-items input {
+		width: 250px;
+	}
+	.middle {
+		padding: 1%;
 	}
 }
 /*Desktop Formatting*/
@@ -145,11 +115,34 @@ button {
 		max-width: 50%;
 		padding-right: 100px;
 	}
-	.head2 {
-		width: 40%;
-		margin-left: 420px;
+	section .head2{
+		width: 50%;
+		margin-left: 25%;
 	}
 	.para h2 {
 		font-size: 40px;
 	}
+	.middle{
+		margin-left: 0px;
+		padding: 1%;
+	}
+	.inner-footer {
+	width: 95%;
+	margin: auto;
+	padding: 20px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+    }
+    .footer-items {
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+    }
+    hr{
+    	width: 100%;
+    	color: black;
+    	margin-left: 1.5%;
+    }
 }
